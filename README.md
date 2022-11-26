@@ -1,0 +1,1 @@
+BlackJack console game with a croupier. Written in Python without the use of third-party packages.
