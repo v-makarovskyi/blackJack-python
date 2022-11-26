@@ -29,7 +29,7 @@ class BlackJack:
     
     def choice(self):
         score = self.random_cart(self.score, False)
-        bot_score = self.random_cart(self.score, True)
+        bot_score = self.random_cart(self.bot_score, True)
         while True:
             choice = input('Будете брать карту? y/n\n')
             if choice == 'y':
